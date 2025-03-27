@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Uploads directory content but keep the directory
+server/uploads/*
+!server/uploads/.gitkeep
